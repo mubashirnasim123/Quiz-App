@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+   display: inline-block; 
+   justify-content: center;
+   background-color: cadetblue;
+}
+#container{
+    text-align: center;
+    margin: 30px 40px 20px 50px;
+    padding-left: 500px ;
+}
+button{
+    
+    text-align: center;
+    justify-items: flex-end;
+    border-radius: 1rem;
+    background: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    padding: 7px;
+    margin: auto;
+    transition: 0.4sec;
+    cursor: pointer;
+    
+
+}
+button:hover{
+    color: crimson;
+}
+
+.num{
+    font-size: 50px;
+    font-weight: 40px;
+}
+#inpu{
+    width: 300px;
+    text-align: center;
+    border-radius: 1rem;
+    height: 30px;
+
+}
+span{
+    font-size: 40px;
+}
